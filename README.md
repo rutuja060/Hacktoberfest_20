@@ -50,10 +50,10 @@ $ git clone https://github.com/Your_Username/Hacktoberfest_2020.git
 
 > This makes a local copy of the repository in your machine.
 
-Once you have cloned the `Hacktoberfest_2020` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows
+Once you have cloned the `Hacktoberfest_20' repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows
 ```sh
-# This will change directory to a folder Hacktoberfest_2020
-$ cd Hacktoberfest_2020
+# This will change directory to a folder Hacktoberfest_20
+$ cd Hacktoberfest_20
 ```
 
 Move to this folder for all other commands.
@@ -64,8 +64,8 @@ Run the following commands to see that *your local copy* has a reference to *you
 
 ```sh
 $ git remote -v
-origin  https://github.com/Your_Username/Hacktoberfest_2020.git (fetch)
-origin  https://github.com/Your_Username/Hacktoberfest_2020.git (push)
+origin  https://github.com/Your_Username/Hacktoberfest_20.git (fetch)
+origin  https://github.com/Your_Username/Hacktoberfest_20.git (push)
 ```
 
 Now, let's add a reference to the original [Hacktoberfest_2020](https://github.com/manan-bedi2908/Hacktoberfest_20/) repository using
@@ -80,16 +80,16 @@ See the changes using
 
 ```sh
 $ git remote -v
-origin    https://github.com/Your_Username/Hacktoberfest_2020.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest_2020.git (push)
-upstream  https://github.com/Remote_Username/Hacktoberfest_2020.git (fetch)
-upstream  https://github.com/Remote_Username/Hacktoberfest_2020.git (push)
+origin    https://github.com/Your_Username/Hacktoberfest_20.git (fetch)
+origin    https://github.com/Your_Username/Hacktoberfest_20.git (push)
+upstream  https://github.com/Remote_Username/Hacktoberfest_20.git (fetch)
+upstream  https://github.com/Remote_Username/Hacktoberfest_20.git (push)
 ```
 `In your case, you will see`
 ```sh
 $ git remote -V
-origin    https://github.com/Your_Username/Hacktoberfest_2020.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest_2020.git (push)
+origin    https://github.com/Your_Username/Hacktoberfest_20.git (fetch)
+origin    https://github.com/Your_Username/Hacktoberfest_20.git (push)
 upstream  https://github.com/manan-bedi2908/Hacktoberfest_20.git (fetch)
 upstream  https://github.com/manan-bedi2908/Hacktoberfest_20.git (push)
 ```
@@ -103,13 +103,13 @@ Before making any changes and/or in an appropriate interval, run the following c
 # Fetch all remote repositories and delete any deleted remote branches
 $ git fetch --all --prune
 
-# Switch to `master` branch
+# Switch to `main` branch
 $ git checkout main
 
-# Reset local `master` branch to match the `upstream` repository's `master` branch
+# Reset local `main` branch to match the `upstream` repository's `main` branch
 $ git reset --hard upstream/main
 
-# Push changes to your forked `Hacktoberfest_2020` repo
+# Push changes to your forked `Hacktoberfest_20` repo
 $ git push -u origin main
 ```
 
