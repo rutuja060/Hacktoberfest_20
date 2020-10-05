@@ -1,4 +1,4 @@
-# Hacktoberfest_20
+# Hacktoberfest 2020
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
@@ -45,7 +45,7 @@ Star the repo by pressing the topmost-right button to start your wonderful journ
 You need to clone (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/Your_Username/Hacktoberfest_2020.git
+$ git clone https://github.com/Your_Username/Hacktoberfest_20.git
 ```
 
 > This makes a local copy of the repository in your machine.
@@ -68,7 +68,7 @@ origin  https://github.com/Your_Username/Hacktoberfest_20.git (fetch)
 origin  https://github.com/Your_Username/Hacktoberfest_20.git (push)
 ```
 
-Now, let's add a reference to the original [Hacktoberfest_2020](https://github.com/manan-bedi2908/Hacktoberfest_20/) repository using
+Now, let's add a reference to the original [Hacktoberfest_20](https://github.com/manan-bedi2908/Hacktoberfest_20/) repository using
 
 ```sh
 $ git remote add upstream https://github.com/manan-bedi2908/Hacktoberfest_20.git
